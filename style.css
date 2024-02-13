@@ -1,0 +1,55 @@
+* {
+    font-family: 'Consolas';
+}
+body {
+    background: black;
+}
+.container {
+    margin: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 25px;
+}
+.container1 {
+    display: flex;
+    white-space: nowrap;
+    gap: 5px;
+    color: white;
+}
+.output {
+    border-bottom: 1px solid;
+    width: 100%;
+    overflow: hidden;
+}
+.output2 {
+    border-bottom: 1px solid;
+    width: 100%;
+    overflow: hidden;
+    animation: anmt 0.5s ease-in-out forwards;
+}
+@keyframes anmt {
+    from {
+        width: 0;
+    }
+}
+button {
+    outline: none;
+    border: 3px solid rgb(148, 85, 2);
+    background: rgb(238, 177, 8);
+    border-radius: 25px;
+    color: white;
+    padding: 5.5px;
+    font-size: medium;
+}
+input {
+    outline: none;
+    border: 3px solid rgb(148, 85, 2);
+    background: rgb(238, 177, 8);
+    border-radius: 25px;
+    color: white;
+    padding: 5.5px;
+    font-size: medium;
+}
