@@ -28,7 +28,7 @@ body {
     border-bottom: 1px solid;
     width: 100%;
     overflow: hidden;
-    animation: anmt 0.5s ease-in-out forwards;
+    animation: anmt 1s linear forwards;
 }
 @keyframes anmt {
     from {
