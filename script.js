@@ -14,7 +14,6 @@ const output = () => {
             clearInterval(timer);
             opt.classList.remove('output2')
         }
-        console.log(count)
     }, 500);
 }
 
